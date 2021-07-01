@@ -1,12 +1,13 @@
 import React from "react";
 import "../styles/App.css";
+import NavBar from "./NavBar";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <h2>Surreal estate</h2>
+      <NavBar />
     </div>
   );
-}
+};
 
 export default App;

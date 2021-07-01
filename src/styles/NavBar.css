@@ -1,0 +1,48 @@
+
+.navbar {
+    background: #fcfcfc;
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    padding: 2em .25em 1em .25em;
+    border-bottom: solid darkgrey 2px;
+}
+
+.houseLogo {
+    width: 3rem;
+    margin: 0 1em;
+}
+
+.navbar-links {
+    padding-left: 2em;
+}
+
+.navbar-link-items {
+    padding: 0 1.5em .1em 1em;
+    list-style-type: none;
+    display: flex;
+    display: inline-block;
+    text-align: end;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 580px) {
+    h2 {
+        padding: .75em;
+    }
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1em;
+    }
+    .navbar-links{
+        display: flex;
+        flex-direction: column;
+        padding: .5em;
+    }
+} 
