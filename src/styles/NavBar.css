@@ -8,7 +8,7 @@
     border-bottom: solid darkgrey 2px;
 }
 
-.houseLogo {
+.house-logo {
     width: 3rem;
     margin: 0 1em;
 }
@@ -28,6 +28,15 @@
 ul {
     margin: 0;
     padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(17, 17, 17);
+}
+
+a:hover {
+    color: rgb(75, 197, 191);
 }
 
 @media only screen and (max-width: 580px) {
