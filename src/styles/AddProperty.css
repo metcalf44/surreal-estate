@@ -1,5 +1,33 @@
 .AddProperty {
-    padding: 2em;
+    padding: 1.5em;
     display: flex;
     justify-content: center;
+}
+
+input, select {
+    padding: .5em;
+    margin: .25em 0 .5em 0;
+    display: block;
+    width: 100%;
+    border: solid black 1px;
+    border-radius: 5px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: .25em .5em;
+    font-size: 1.25rem;
+    border-radius: 8px;
+    margin: .5em;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    input, select {
+        display: inline-block;
+    }
 }

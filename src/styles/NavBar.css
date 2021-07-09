@@ -56,7 +56,7 @@ a:hover {
     }
 } 
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 353px) {
     .navbar-links {
         display: flex;
         flex-direction: column;
