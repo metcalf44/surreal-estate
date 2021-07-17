@@ -1,0 +1,19 @@
+.Property-card {
+    background: rgb(171, 171, 249);
+    display: inline-block;
+    width: 45%;
+    max-width: 300px;
+    padding: .5em;
+    margin: .5em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.card-email {
+    background: chocolate;
+    margin: .25em 0;
+    text-align: center;
+    padding: .25em;
+}

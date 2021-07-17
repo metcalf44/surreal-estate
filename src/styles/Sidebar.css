@@ -1,0 +1,11 @@
+.sidebar {
+    background: red;
+    display: flex;
+    flex-direction: column;
+    flex: 20%;
+    padding: .5em;
+}
+
+.sidebar-item {
+    padding: .5em;
+}

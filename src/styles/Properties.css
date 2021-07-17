@@ -1,0 +1,11 @@
+.properties {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.properties-container {
+    flex: 80%;
+    justify-content: space-around;
+    align-items: center;
+}

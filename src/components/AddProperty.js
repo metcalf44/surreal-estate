@@ -7,8 +7,8 @@ const AddProperty = () => {
   const initialState = {
     fields: {
       title: "",
-      city: "",
-      type: "",
+      city: "Stevenage",
+      type: "Detached",
       bedrooms: "",
       bathrooms: "",
       price: "",
@@ -47,7 +47,7 @@ const AddProperty = () => {
   };
 
   return (
-    <div className="AddProperty">
+    <div className="Add-property">
       <div className="container">
         <form onSubmit={handleAddProperty}>
           <Alert message={alert.message} success={alert.isSuccess} />
@@ -127,9 +127,9 @@ const AddProperty = () => {
                 value={fields.city}
                 onChange={handleFieldChange}
               >
-                <option value="Manchester">Manchester</option>
-                <option value="Leeds">Leeds</option>
-                <option value="Sheffield">Sheffield</option>
+                <option value="Stevenage">Stevenage</option>
+                <option value="Letchworth">Letchworth</option>
+                <option value="Baldock">Baldock</option>
                 <option value="Hitchin">Hitchin</option>
               </select>
             </label>
