@@ -1,11 +1,34 @@
 .sidebar {
-    background: red;
+    background: rgb(218, 219, 254);
     display: flex;
     flex-direction: column;
     flex: 20%;
     padding: .5em;
+    height: 100vh;
 }
 
 .sidebar-item {
     padding: .5em;
+}
+
+.sidebar-sort, .sidebar-filter {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.sidebar-form {
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+button {
+    background: rgb(123, 99, 254);
+    color: #fff;
+}
+
+button:hover{
+    background: rgb(75, 43, 252);
+    transform: scale(1.05);
 }

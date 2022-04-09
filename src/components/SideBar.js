@@ -35,7 +35,7 @@ const SideBar = () => {
 
   return (
     <div className="sidebar">
-      <form onSubmit={handleSearch}>
+      <form className="sidebar-form" onSubmit={handleSearch}>
         <input
           type="text"
           value={query}

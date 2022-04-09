@@ -15,7 +15,7 @@ test("display a success message", () => {
 });
 
 test("if the message is not truthy it wont display", () => {
-  const { asFragment } = render(<Alert message="" />);
+  const { asFragment } = render(<Alert message=" " />);
   const alert = asFragment();
 
   expect(alert).toMatchSnapshot();

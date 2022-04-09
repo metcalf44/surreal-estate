@@ -16,33 +16,35 @@ exports[`PropertyCard renders correctly 1`] = `
     >
       <li
         class="card-title"
-      />
+      >
+        country cottage
+      </li>
       <li
         class="card-type"
       >
-         - 
+        cottage - Hitchin
       </li>
       <li
         class="card-bedroom"
       >
-         - bedrooms
+        3 - bedrooms
       </li>
       <li
         class="card-bathroom"
       >
-         - bathrooms 
+        2 - bathrooms 
       </li>
       <li
         class="card-price"
       >
-        £
+        £250000
       </li>
       <li
         class="card-email"
       >
         <a
           class="card-mailto"
-          href="mailto:undefined"
+          href="mailto:emetcalf44@gmail.com"
         >
           Email seller
         </a>

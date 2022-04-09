@@ -1,6 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`if the message is not truthy it wont display 1`] = `<DocumentFragment />`;
+exports[`if the message is not truthy it wont display 1`] = `
+<DocumentFragment>
+  <div
+    class="Alert alert-error"
+  >
+     
+  </div>
+</DocumentFragment>
+`;
 
 exports[`will display a success message 1`] = `
 <DocumentFragment>

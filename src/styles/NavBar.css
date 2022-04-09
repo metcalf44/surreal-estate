@@ -1,4 +1,8 @@
 
+.nav-title {
+    font-size: 2rem;
+}
+
 .navbar {
     background: #fcfcfc;
     display: flex;

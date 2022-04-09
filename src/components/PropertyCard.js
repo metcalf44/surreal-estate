@@ -40,10 +40,8 @@ PropertyCard.propTypes = {
   title: PropTypes.string.isRequired,
   type: PropTypes.string.isRequired,
   city: PropTypes.string.isRequired,
-  bedrooms: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
-    .isRequired,
-  bathrooms: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
-    .isRequired,
+  bedrooms: PropTypes.string.isRequired,
+  bathrooms: PropTypes.string.isRequired,
   price: PropTypes.string.isRequired,
   email: PropTypes.string.isRequired,
 };
