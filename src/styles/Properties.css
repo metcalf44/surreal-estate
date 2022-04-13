@@ -5,7 +5,9 @@
 }
 
 .properties-container {
-    flex: 80%;
-    justify-content: space-around;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex: 65%;
+    align-items:flex-end;
+    margin-top: 1em;
 }

@@ -26,18 +26,24 @@ const AddProperty = () => {
 
   const handleAddProperty = (event) => {
     event.preventDefault();
-    return axios
-      .post(`http://localhost:3000/api/v1/PropertyListing`, fields)
+    event.preventDefault();
+    setAlert({
+      message: "",
+      isSuccess: false,
+    });
+    axios
+      .post("http://localhost:4000/api/v1/PropertyListing/", {
+        ...fields,
+      })
       .then(() =>
         setAlert({
-          message: "Property added",
+          message: "Property Added",
           isSuccess: true,
         })
       )
       .catch(() =>
         setAlert({
           message: "Server error. Please try again later.",
-          isSuccess: false,
         })
       );
   };

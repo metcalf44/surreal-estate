@@ -6,8 +6,8 @@ const PropertyCard = ({
   title,
   type,
   city,
-  bathrooms,
   bedrooms,
+  bathrooms,
   price,
   email,
 }) => {

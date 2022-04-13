@@ -1,13 +1,6 @@
 ### Surreal Estate
 
-This project I will be creating a property search engine which will include.
-
-- single page Application (SPA)
-- Client-side routing
-- Controlled inputs
-- HTTP requests
-- API interaction
-- OAuth
+A property search page.
 
 ### Built using:
 
@@ -35,4 +28,17 @@ You will also see any lint errors in the console.
 `$ npm test`
 
 Launches the test runner in the interactive watch mode.
-See the section about [running tests]
+
+## learning areas
+
+Client side routing
+Controlled inputs
+HTTP Requests
+Axios
+PropTypes
+Airbnb style guide
+
+## future changes
+
+improve the css to make the page look better.
+Add a component and functionality to be able to save properties to a favorites page.

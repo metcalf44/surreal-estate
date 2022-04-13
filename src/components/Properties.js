@@ -23,15 +23,19 @@ const Properties = () => {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:3000/api/v1/PropertyListing${search}`)
+      .get(`http://localhost:4000/api/v1/PropertyListing${search}`)
       .then(({ data }) => setProperties(data))
-      // eslint-disable-next-line no-console
-      .catch((err) => console.log(err));
+      .catch(() =>
+        setAlert({
+          message: "Server error. Please try again later",
+          isSuccess: true,
+        })
+      );
   }, [search]);
 
   useEffect(() => {
     axios
-      .get(`http://localhost:3000/api/v1/PropertyListing`)
+      .get(`http://localhost:4000/api/v1/PropertyListing`)
       .then(({ data }) => setProperties(data))
       .catch(() => {
         setAlert({

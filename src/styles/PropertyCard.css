@@ -1,19 +1,48 @@
+.card-heading {
+    padding: .5em 0;
+}
+
 .Property-card {
-    background: rgb(171, 171, 249);
-    display: inline-block;
-    width: 45%;
-    max-width: 300px;
-    padding: .5em;
-    margin: .5em;
+    background: rgb(255, 255, 255);
+    width: 90%;
+    padding: 0 1em;
+    margin: auto;
+    margin-bottom: 1em;
+    text-align: right;
+    border-radius: 25px;
 }
 
 ul {
     list-style-type: none;
 }
 
+li {
+    padding: 0 0 0.25em 0;
+}
+
+li, .card-heading {
+    padding-right: 1em;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
 .card-email {
-    background: chocolate;
-    margin: .25em 0;
+    background: rgb(123, 99, 254);
+    border-radius: 10px;
     text-align: center;
     padding: .25em;
+    margin: 1em auto;
+    width: 70%;
+}
+
+.card-email:hover {
+    background: rgb(75, 43, 252);
+    transform: scale(1.05);
+}
+
+.card-mailto {
+    color: #fff;
+    padding: 1em 10em;
 }
